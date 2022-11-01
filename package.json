@@ -1,0 +1,26 @@
+{
+  "name": "clapingo-assignment",
+  "version": "1.0.0",
+  "description": " APIs using node.js, express.js, mongoose & MongoDB where students can log in, add a teacher to their favorite, remove the teacher from their favorite list ",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^8.6.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.11.0",
+    "mongoose": "^5.13.15",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "nkv",
+  "license": "ISC"
+
+}

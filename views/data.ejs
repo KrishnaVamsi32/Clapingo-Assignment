@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+	<div class="col-md-4 col-md-offset-4">
+		<div>
+			<p>Student Details</p>
+		</div>
+		<div>
+			<center>
+				<table class="table table-hover text-center">
+					<tr><td>Name </td><td><%= name %></td></tr>
+					<tr><td>Email </td><td><%= email %></td></tr>
+					<tr><td>Your Favorite Teacher </td><td><%= favorite_teacher %></td></tr>
+				</table>
+				<table>
+					<table class="table table-hover text-center">
+						<form  action="/profile" method="POST" >	
+							<label for="fav_teacher">Choose your  favorite teacher  </label>
+								<select name="fav_teacher" id="fav_teacher" placeholder="select">
+										  <option selected >None</option>
+										  <option value="Prof. Anil Kumar">Prof. Anil Kumar</option>
+										<option value="prof. Aruna">prof. Aruna</option>
+										<option value="prof. Deepa">prof. Deepa</option>
+										  <option value="Prof. Srinivas" >Prof. Srinivas</option>
+										  <option value="prof. Krishnayya">prof. Krishnayya</option>
+										<option value="prof. Vaishali">prof. Vaishali</option>
+								</select>
+								<p>
+									<input type="submit"   value="submit" class="btn btn-success">
+								</p>
+						</form>
+						
+					</table>
+				</table>
+				 
+				
+			
+				
+			</center>
+		</div>
+	</br>
+			<div class="abc">
+			<a href="/logout">Logout</a>
+		</div>
+	</div>
+</body>
+</html>
