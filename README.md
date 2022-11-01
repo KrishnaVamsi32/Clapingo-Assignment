@@ -3,7 +3,7 @@ APIS  using node.js, express.js, mongoose & MongoDB where students can log in, a
 
 # MongoDB Atlas cluster is used as database
 students data is stored in collection "users" and
-session data is stored in colelction "sessions"
+session data is stored in collection "sessions"
 # install npm
 ```
 npm install
