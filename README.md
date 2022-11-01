@@ -2,6 +2,8 @@
 APIS  using node.js, express.js, mongoose & MongoDB where students can log in, add a teacher to their favorite, remove the teacher from their favorite list
 
 # MongoDB Atlas cluster is used as database
+students data is stored in collection "users" and
+session data is stored in colelction "sessions"
 # install npm
 ```
 npm install
