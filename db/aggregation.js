@@ -52,6 +52,9 @@ async function main() {
           }
           console.log()
           console.log("#######################################################")
+          console.log("Data of all the students in this users collection : " ,data)
+          console.log("#######################################################")
+          console.log("#######################################################")
 
 
 
