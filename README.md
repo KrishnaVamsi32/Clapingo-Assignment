@@ -1,2 +1,0 @@
-# Clapingo-Assignment
-Assignment
