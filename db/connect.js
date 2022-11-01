@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const DB = process.env.DATABASE;
 
-//connecting to monoDB database
+//connecting to mongoDB database
 
 mongoose.connect(DB, {
     useNewUrlParser : true,
