@@ -1,2 +1,2 @@
 emails:(vinay,loka,musthfa,nandu,likki,rohith,simha,bash,baba,mythili,vamsi,karishma)@123
-password for al emails : 123
+password for all emails : 123
