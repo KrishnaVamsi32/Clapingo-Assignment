@@ -37,19 +37,26 @@ async function main() {
           console.log("#######################################################")
           console.log()
           
-          for(let i =0; i<(x.length-1);i++){
-            j = i+1
-            if(x[j].No_of_students_liked ==  x[i].No_of_students_liked){
-                console.log("Most favorite teacher : ",(x[0]._id))
+          if(x.length==1){
+            console.log("Most favorite teacher : ",(x[0]._id))
                 console.log("Number of students liked : ",x[0].No_of_students_liked)
-                console.log("----------------------------------------------------------")
-            }else{
-                console.log("Most favorite teacher : ",(x[0]._id))
-                console.log("Number of students liked : ",x[0].No_of_students_liked)
-                break
-            }
+          }else{
+            for(let i =0; i<=(x.length-2);i++){
+                j = i+1
+                if(x[j].No_of_students_liked ==  x[i].No_of_students_liked){
+                    console.log("Most favorite teacher : ",(x[0]._id))
+                    console.log("Number of students liked : ",x[0].No_of_students_liked)
+                    console.log("----------------------------------------------------------")
+                }else{
+                    console.log("Most favorite teacher : ",(x[0]._id))
+                    console.log("Number of students liked : ",x[0].No_of_students_liked)
+                    break
+                     }
 
-          }
+                }
+            }
+        
+        
           console.log()
           console.log("#######################################################")
           console.log("Data of all the students in this users collection : " ,data)
